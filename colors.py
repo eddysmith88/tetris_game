@@ -1,4 +1,8 @@
-#Створили 8 кольорів і кожному присвоїли свій номер
+"""
+Created eight colors with id for each color
+"""
+
+
 class Colors:
     """
     Class to represent colors used in game scripts

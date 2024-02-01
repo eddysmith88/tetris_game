@@ -6,6 +6,9 @@ from position import Position
 
 
 class LBlock(Block):
+    """
+    Coordinates for block L
+    """
     def __init__(self):
         super().__init__(id=1)
         self.cells = {
@@ -18,6 +21,9 @@ class LBlock(Block):
 
 
 class JBlock(Block):
+    """
+    Coordinates for block J
+    """
     def __init__(self):
         super().__init__(id=2)
         self.cells = {
@@ -30,6 +36,9 @@ class JBlock(Block):
 
 
 class IBlock(Block):
+    """
+    Coordinates for block I
+    """
     def __init__(self):
         super().__init__(id=3)
         self.cells = {
@@ -42,6 +51,9 @@ class IBlock(Block):
 
 
 class OBlock(Block):
+    """
+    Coordinates for block O
+    """
     def __init__(self):
         super().__init__(id=4)
         self.cells = {
@@ -51,6 +63,9 @@ class OBlock(Block):
 
 
 class SBlock(Block):
+    """
+    Coordinates for block S
+    """
     def __init__(self):
         super().__init__(id=5)
         self.cells = {
@@ -63,6 +78,9 @@ class SBlock(Block):
 
 
 class TBlock(Block):
+    """
+    Coordinates for block T
+    """
     def __init__(self):
         super().__init__(id=6)
         self.cells = {
@@ -75,6 +93,9 @@ class TBlock(Block):
 
 
 class ZBlock(Block):
+    """
+    Coordinates for block Z
+    """
     def __init__(self):
         super().__init__(id=7)
         self.cells = {

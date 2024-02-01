@@ -89,8 +89,13 @@ class Grid:
             for column in range(self.num_cols):
                 self.grid[row][column] = 0
 
-    #Промальовка полотна
+
     def draw(self, screen):
+        """
+        Draw the grid on the screen
+        :param screen:
+        :return:
+        """
         for row in range(self.num_rows):
             for column in range(self.num_cols):
                 cell_value = self.grid[row][column]

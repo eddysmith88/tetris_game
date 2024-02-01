@@ -1,8 +1,8 @@
 """
 All functionality of the blocks
 """
-from colors import Colors
 import pygame
+from colors import Colors
 from position import Position
 
 

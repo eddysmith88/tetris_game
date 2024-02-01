@@ -1,7 +1,8 @@
+import pygame
 from grid import Grid
 from blocks import *
 import random
-import pygame
+
 
 
 class Game:

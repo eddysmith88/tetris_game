@@ -2,8 +2,8 @@
 Main file for the game Tetris
 Its contain game engine
 """
-import pygame
 import sys
+import pygame
 from game import Game
 from colors import Colors
 
